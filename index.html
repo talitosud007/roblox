@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Roblox_icon_-_2017.svg/500px-Roblox_icon_-_2017.svg.png"
+        type="image/png">
+    <title>Roblox Jogos</title>
+
+    <style>
+        .jogo {
+            display: none;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            text-align: center;
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-family: Arial, sans-serif;
+        }
+
+        .jogo:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .jogo img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 1px solid #eee;
+            transition: transform 0.3s ease;
+        }
+
+        .jogo:hover img {
+            transform: scale(1.03);
+        }
+
+        .jogo p {
+            font-size: 20px;
+            padding: 1px;
+            margin: 0.1;
+            color: #470000e0;
+        }
+
+        .jogo a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container-jogos {
+            display: grid;
+            grid-template-columns: repeat(4, 300px);
+            gap: 20px;
+            justify-content: center;
+            /* centraliza o grid */
+            margin: 0 auto;
+        }
+        body {
+         background: linear-gradient(to bottom, #f5f5f5, #cccccc);
+}
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Jogos Online - Roblox </h1>
+        <nav>
+            <button onclick="filtrar('acao')">Bom</button>
+            <button onclick="filtrar('aventura')">Legal</button>
+            <button onclick="filtrar('estrategia')">Ok</button>
+            <button onclick="filtrar('puzzle')">Paia</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container-jogos">
+
+            <!-- PAIA -->
+            <div class="jogo puzzle">
+                <a href="https://www.roblox.com/pt/games/14184086618">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-2afc17277c9b2b7ea2a8200824ccfeaa/768/432/Image/Webp/noFilter"></a>
+                <p>Obby But You re On a Bike</p>
+            </div>
+
+            <div class="jogo puzzle">
+                <a href="https://www.roblox.com/pt/games/370731277">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-5cbdfc0b238311e39adc9dfcef510566/768/432/Image/Webp/noFilter"></a>
+                <p>MeepCity</p>
+            </div>
+
+            <div class="jogo puzzle">
+                <a href="www.roblox.com/pt/games/306952222/">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-0ebb33de29b5c38b764475c99ceb76e6/768/432/Image/Webp/noFilter"></a>
+                <p>Survive the Epic Disasters</p>
+            </div>
+
+            <div class="jogo puzzle">
+                <a href="https://www.roblox.com/pt/games/2551991523/">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-199450da923bd5f3d6108506271d1346/768/432/Image/Webp/noFilter"></a>
+                <p>Broken Bones IV</p>
+            </div>
+
+
+            <div class="jogo puzzle">
+                <a href="https://www.roblox.com/pt/games/10782471256">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-5bb9321cabd048edab5e13a8d11c502f/768/432/Image/Webp/noFilter"></a>
+                <p>Obby Leader</p>
+            </div>
+
+
+            <div class="jogo puzzle">
+                <a href="https://www.roblox.com/pt/games/4522347649">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-2ade82078324ea1e3cf415f7b4783870/768/432/Image/Webp/noFilter"></a>
+                <p>FREE ADMIN</p>
+            </div>
+
+            <div class="jogo puzzle">
+                <a href="https://www.roblox.com/pt/games/5289509545">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-bd75ddc7ebc70d9faabc179f2ec02799/768/432/Image/Webp/noFilter"></a>
+                <p>Gacha Online RP</p>
+            </div>
+
+
+            <div class="jogo puzzle">
+                <a href="https://www.roblox.com/pt/games/17813692689">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-73d41a8d9d4a4d38a7e318fcd78fc054/768/432/Image/Webp/noFilter"></a>
+                <p>Journey with Jesus</p>
+            </div>
+
+            <div class="jogo puzzle">
+                <a href="https://www.roblox.com/pt/games/102437914331661">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-6f3e5c2129be85b27634790f0af332b7/768/432/Image/Webp/noFilter"></a>
+                <p>Public Bathroom Simulator"</p>
+            </div>
+
+            <div class="jogo estrategia">
+                <a href="https://www.roblox.com/pt/games/15316683107">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-2b2c6b2334ad16fec3f15021b0893e94/768/432/Image/Webp/noFilter"></a>
+                <p>Nearly Impossible Obby</p>
+            </div>
+
+            <!-- OK -->
+            <div class="jogo estrategia">
+                <a href="https://www.roblox.com/pt/games/155615604">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-3c69710523b585b62f53aa0d4c6c32ed/768/432/Image/Webp/noFilter"></a>
+                <p>Prison Life</p>
+            </div>
+
+            <div class="jogo estrategia">
+                <a href="https://www.roblox.com/pt/games/13831863192">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-355a4d2ee71676c2ff3832955d4354a2/768/432/Image/Webp/noFilter"></a>
+                <p>Neko Infection VR</p>
+            </div>
+
+            <div class="jogo estrategia">
+                <a href="https://www.roblox.com/pt/games/855499080">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-4aa614dfc97662c8702286d0c276e9b2/768/432/Image/Webp/noFilter"></a>
+                <p>SKYWARS</p>
+            </div>
+
+            <div class="jogo estrategia">
+                <a href="https://www.roblox.com/pt/games/12828227139">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-97f86246b06372a22d92cab8b45275fb/768/432/Image/Webp/noFilter"></a>
+                <p>War Machines</p>
+            </div>
+
+            <div class="jogo estrategia">
+                <a href="https://www.roblox.com/pt/games/155382109">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-4c9d18843e9f84d682020843d3ae2b61/768/432/Image/Webp/noFilter"></a>
+                <p>Survive in Area 51</p>
+            </div>
+
+            <div class="jogo estrategia">
+                <a href="https://www.roblox.com/pt/games/16029650802">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-816a510ce72cf011d146f8eabc647bea/768/432/Image/Webp/noFilter"></a>
+                <p>Bar do Bira Brasil</p>
+            </div>
+
+            <div class="jogo estrategia">
+                <a href="https://www.roblox.com/pt/games/8286149869/">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-1b2cd52e6190317f30ce8cf75973e600/768/432/Image/Webp/noFilter"></a>
+                <p>Therapy</p>
+            </div>
+
+            <div class="jogo estrategia">
+                <a href="https://www.roblox.com/pt/games/114748411168666/">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-31e53dae734379fde525fa49c0554673/768/432/Image/Webp/noFilter"></a>
+                <p>Lobotomy Simulator</p>
+            </div>
+
+            <!-- LEGAL -->
+            <div class="jogo aventura">
+                <a href="https://www.roblox.com/pt/games/10449761463">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-ccd8bcf9f66dc37834534d2cb3cfd1b9/768/432/Image/Webp/noFilter"></a>
+                <p>The Strongest Battlegrounds</p>
+            </div>
+
+            <div class="jogo aventura">
+                <a href="https://www.roblox.com/pt/games/621129760">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-319e43376ca0c17efc84d0ee45dd274f/768/432/Image/Webp/noFilter"></a>
+                <p>KAT</p>
+            </div>
+
+
+            <div class="jogo aventura">
+                <a href="https://www.roblox.com/pt/games/13202136883">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-4754177401ab5bf9327fa265b07a9cc1/768/432/Image/Webp/noFilter"></a>
+                <p>Wavedash</p>
+            </div>
+
+            <div class="jogo aventura">
+                <a href="https://www.roblox.com/pt/games/15002061926">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-faed7f8c33c7ed147ef0d68236a5e18d/768/432/Image/Webp/noFilter"></a>
+                <p>Death Ball</p>
+            </div>
+
+            <div class="jogo aventura">
+                <a href="https://www.roblox.com/pt/games/15954315563">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-d5e1b5585c439b818902a279f6c3f120/768/432/Image/Webp/noFilter"></a>
+                <p>Buckshot Showdown</p>
+            </div>
+
+            <div class="jogo aventura">
+                <a href="www.roblox.com/pt/games/740581668">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-0394a5fc2d49c5ed8a59a93979099ac0/768/432/Image/Webp/noFilter"></a>
+                <p>Glass</p>
+            </div>
+
+            <div class="jogo aventura">
+                <a href="https://www.roblox.com/pt/games/13717130956">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-21fb5cf8b5503999be15664aa4039fd4/768/432/Image/Webp/noFilter"></a>
+                <p>Gravity 2 Player Obby</p>
+            </div>
+
+
+            <div class="jogo aventura">
+                <a href="https://www.roblox.com/pt/games/6678877691">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-7b78bde0831b97934fcbba05af2bda89/768/432/Image/Webp/noFilter"></a>
+                <p>ZO SAMURAI SWORD FIGHTING</p>
+            </div>
+
+            <div class="jogo aventura">
+                <a href="https://www.roblox.com/pt/games/11684369582/">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-0d09e9a6198fb191216e0b91d68c94e1/768/432/Image/Webp/noFilter"></a>
+                <p>I Wanna Test The Game</p>
+            </div>
+            <!-- BOM -->
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/138837502355157">
+                    <img src="https://static.wikia.nocookie.net/grace-rbx/images/6/68/Grace.webp"></a>
+                <p>Grace</p>
+            </div>
+
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/14044547200">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-f1081414bad80ab420039ea13086c4ae/768/432/Image/Webp/noFilter"></a>
+                <p>untitled tag game</p>
+            </div>
+
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/6516141723">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-af2d9b55dbc9b730d098c2fbc60902f5/768/432/Image/Webp/noFilterg"></a>
+                <p>Doors</p>
+            </div>
+
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/10277607801">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-f3efe38a4da0043189e904387e4e2291/768/432/Image/Webp/noFilter"></a>
+                <p>Apeirophobia</p>
+            </div>
+
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/648362523">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-b3a9bd13fbee259ae71e56415f71b362/768/432/Image/Webp/noFilter"></a>
+                <p>Breaking Point</p>
+            </div>
+
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/15180042075/">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-3deff205162c4f3d6424e022bbd2491b/768/432/Image/Webp/noFilter"></a>
+                <p>Fruit Game</p>
+            </div>
+
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/132287558697665">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-4a8907c4141d635a19501631c258f14d/768/432/Image/Webp/noFilter"></a>
+                <p>SandBox</p>
+            </div>
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/445664957/">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-9fbea4c01811d97d588fec814d3a248e/768/432/Image/Webp/noFilter"></a>
+                <p>NEW GEAR PARKOUR Legacy</p>
+            </div>
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/12411473842">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-832748a6ce8d0734250d5ea9fb1066e6/768/432/Image/Webp/noFilter"></a>
+                <p>Pressure</p>
+            </div>
+
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/13924946576/">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-9c41c6f945d5116338e6ede4c19504d2/768/432/Image/Webp/noFilter"></a>
+                <p>Dingus</p>
+            </div>
+
+
+            <div class="jogo acao">
+                <a href="https://www.roblox.com/pt/games/6520999642">
+                    <img
+                        src="https://tr.rbxcdn.com/180DAY-3d39dad265dbe3001680e041468faa4a/768/432/Image/Webp/noFilter"></a>
+                <p>Basically FNF Remix</p>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <script>
+        // Função para filtrar jogos por categoria
+        function filtrar(categoria) {
+            const jogos = document.querySelectorAll('.jogo');
+            jogos.forEach(jogo => {
+                if (categoria === 'todos') {
+                    jogo.style.display = 'block';
+                } else {
+                    if (jogo.classList.contains(categoria)) {
+                        jogo.style.display = 'block';
+                    } else {
+                        jogo.style.display = 'none';
+                    }
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
